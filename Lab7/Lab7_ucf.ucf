@@ -1,0 +1,35 @@
+# Pinouts for Nexys3 Board  (Spartan6-XC6SLX16-324)
+
+# Start I/O Pin Assignments
+ NET "clock"        LOC = "v10"  ;    # 100 MHz board clock
+
+# Slide Switches
+ NET "ir_ld"      LOC = "t10"  ; 
+ NET "reg_w_en"   LOC = "t9"   ; 
+ NET "pc_inc"     LOC = "v9"   ; 
+ NET "pc_ld"      LOC = "m8"   ; 
+ NET "s_sel"      LOC = "n8"   ; 
+ NET "adr_sel"    LOC = "u8"   ; 
+#NET "sw<6>"      LOC = "v8"   ; 
+ NET "a_d_sel"    LOC = "t5"   ;
+
+# Push Buttons
+ NET "reset"      LOC = "a8"   ;   # typically used for one shot single step 
+#NET "btnF"       LOC = "b8"   ;
+ NET "step_clk"   LOC = "c9"   ;   # typically used for reset
+ NET "mem_w_en"   LOC = "c4"   ; 
+#NET "btnR"       LOC = "d9"   ;     
+
+# 7-segment Display 
+ NET "anode<0>"  LOC = "n16"  ;
+ NET "anode<1>"  LOC = "n15"  ;
+ NET "anode<2>"  LOC = "p18"  ;
+ NET "anode<3>"  LOC = "p17"  ;
+ NET "a"          LOC = "t17"  ;
+ NET "b"          LOC = "t18"  ;
+ NET "c"          LOC = "u17"  ;
+ NET "d"          LOC = "u18"  ;
+ NET "e"          LOC = "m14"  ;
+ NET "f"          LOC = "n14"  ;
+ NET "g"          LOC = "l14"  ;
+#NET "dp"         LOC = "m13"  ;

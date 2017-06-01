@@ -1,0 +1,129 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab6/Lab6_TopModule.xst" -ofn "C:/Xilinx/Lab6/Lab6_TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab6_ucf.ucf -p xc6slx16-csg324-2 Lab6_TopModule.ngc Lab6_TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab6_TopModule_map.ncd Lab6_TopModule.ngd Lab6_TopModule.pcf 
+par -w -intstyle ise -ol high -mt off Lab6_TopModule_map.ncd Lab6_TopModule.ncd Lab6_TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf 
+bitgen -intstyle ise -f Lab6_TopModule.ut Lab6_TopModule.ncd 

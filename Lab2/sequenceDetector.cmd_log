@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab2/sequenceDetector.xst" -ofn "C:/Xilinx/Lab2/sequenceDetector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 sequenceDetector.ngc sequenceDetector.ngd  

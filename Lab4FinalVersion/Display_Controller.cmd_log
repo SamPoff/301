@@ -1,0 +1,83 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xa7a100t-csg324-2I Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xa7a100t-csg324-2I Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab4FinalVersion/Display_Controller.xst" -ofn "C:/Xilinx/Lab4FinalVersion/Display_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Display_Controller.ngc Display_Controller.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Display_Controller_map.ncd Display_Controller.ngd Display_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Display_Controller_map.ncd Display_Controller.ncd Display_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Display_Controller.twx Display_Controller.ncd -o Display_Controller.twr Display_Controller.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Display_Controller.ut Display_Controller.ncd 

@@ -1,0 +1,73 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/shift_register.xst" -ofn "C:/Xilinx/Lab1/shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UserConstraints.ucf -p xc6slx16-csg324-2 shift_register.ngc shift_register.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_register_map.ncd shift_register.ngd shift_register.pcf 
+par -w -intstyle ise -ol high -mt off shift_register_map.ncd shift_register.ncd shift_register.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml shift_register.twx shift_register.ncd -o shift_register.twr shift_register.pcf -ucf UserConstraints.ucf 
+bitgen -intstyle ise -f shift_register.ut shift_register.ncd 

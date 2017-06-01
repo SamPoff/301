@@ -1,0 +1,105 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf
+-ucf Lab7_ucf.ucf
+
+Design file:              TopModule.ncd
+Physical constraint file: TopModule.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+adr_sel     |    5.364(R)|      SLOW  |   -1.750(R)|      FAST  |clock_BUFGP       |   0.000|
+reset       |    8.652(R)|      SLOW  |   -0.569(R)|      FAST  |clock_BUFGP       |   0.000|
+s_sel       |    9.639(R)|      SLOW  |   -2.302(R)|      FAST  |clock_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+a           |        19.478(R)|      SLOW  |         7.195(R)|      FAST  |clock_BUFGP       |   0.000|
+b           |        19.401(R)|      SLOW  |         7.020(R)|      FAST  |clock_BUFGP       |   0.000|
+c           |        19.862(R)|      SLOW  |         7.355(R)|      FAST  |clock_BUFGP       |   0.000|
+d           |        19.814(R)|      SLOW  |         7.401(R)|      FAST  |clock_BUFGP       |   0.000|
+e           |        19.640(R)|      SLOW  |         7.314(R)|      FAST  |clock_BUFGP       |   0.000|
+f           |        19.945(R)|      SLOW  |         7.391(R)|      FAST  |clock_BUFGP       |   0.000|
+g           |        19.896(R)|      SLOW  |         7.450(R)|      FAST  |clock_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    8.409|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a_d_sel        |a              |   15.590|
+a_d_sel        |b              |   15.482|
+a_d_sel        |c              |   15.619|
+a_d_sel        |d              |   15.926|
+a_d_sel        |e              |   15.721|
+a_d_sel        |f              |   15.702|
+a_d_sel        |g              |   15.977|
+adr_sel        |a              |   15.054|
+adr_sel        |b              |   14.604|
+adr_sel        |c              |   15.118|
+adr_sel        |d              |   15.390|
+adr_sel        |e              |   14.812|
+adr_sel        |f              |   15.201|
+adr_sel        |g              |   15.068|
+s_sel          |a              |   20.416|
+s_sel          |b              |   20.403|
+s_sel          |c              |   20.450|
+s_sel          |d              |   20.752|
+s_sel          |e              |   20.642|
+s_sel          |f              |   20.533|
+s_sel          |g              |   20.898|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 10 18:28:08 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 244 MB
+
+
+

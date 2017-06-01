@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab5/Lab5_TopLevel.xst" -ofn "C:/Xilinx/Lab5/Lab5_TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Lab5_TopLevel.ngc Lab5_TopLevel.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4_ucf.ucf -p xc6slx16-csg324-2 Lab5_TopLevel.ngc Lab5_TopLevel.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab5_TopLevel_map.ncd Lab5_TopLevel.ngd Lab5_TopLevel.pcf 
+par -w -intstyle ise -ol high -mt off Lab5_TopLevel_map.ncd Lab5_TopLevel.ncd Lab5_TopLevel.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lab5_TopLevel.twx Lab5_TopLevel.ncd -o Lab5_TopLevel.twr Lab5_TopLevel.pcf -ucf Lab4_ucf.ucf 
+bitgen -intstyle ise -f Lab5_TopLevel.ut Lab5_TopLevel.ncd 

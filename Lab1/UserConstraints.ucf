@@ -1,0 +1,23 @@
+# Pinouts for Nexys3 Board  (Spartan6-XC6SLX16-324)
+
+# Start I/O Pin Assignments
+ NET "clock"        LOC = "v10"  ;    # 100 MHz board clock
+
+# Slide Switches
+ NET "inShift[0]"      LOC = "t10"  ; 
+ NET "inShift[1]"      LOC = "t9"   ; 
+ NET "inShift[2]"      LOC = "v9"   ; 
+ NET "inShift[3]"      LOC = "m8"   ; 
+ NET "serialIn"      LOC = "u8"   ; 
+ NET "select[0]"      LOC = "v8"   ; 
+ NET "select[1]"      LOC = "t5"   ;
+
+# Push Buttons
+ NET "reset"       LOC = "a8"   ;   # typically used for one shot single step 
+ NET "step"       LOC = "c9"   ;   # typically used for reset
+ 
+# LED's
+ NET "outShift[0]"    LOC = "u16"  ; 
+ NET "outShift[1]"    LOC = "v16"  ; 
+ NET "outShift[2]"    LOC = "u15"  ; 
+ NET "outShift[3]"    LOC = "v15"  ;  

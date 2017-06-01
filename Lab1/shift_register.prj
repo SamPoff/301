@@ -1,0 +1,5 @@
+verilog work "mux_4to1.v"
+verilog work "d_ff.v"
+verilog work "debounce.v"
+verilog work "clockDivider.v"
+verilog work "shift_register.v"

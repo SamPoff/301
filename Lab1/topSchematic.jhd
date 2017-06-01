@@ -1,0 +1,7 @@
+MODULE topSchematic
+	SUBMODULE clk_500Hz
+		INSTANCE XLXI_1
+	SUBMODULE debounce
+		INSTANCE XLXI_2
+	SUBMODULE shift_reg_4bit
+		INSTANCE shift_register

@@ -1,0 +1,5 @@
+verilog isim_temp "mux_4to1.v"
+verilog isim_temp "d_ff.v"
+verilog isim_temp "shift_register.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

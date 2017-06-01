@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\Lab1\topModule.ncd
+OUTFILE=C:\Xilinx\Lab1\topModule.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Xilinx\Lab1
+LICENSE=WebPack
+USER_INFO=211085836_0_0_472

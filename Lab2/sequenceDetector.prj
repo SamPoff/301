@@ -1,0 +1,2 @@
+verilog work "d_ff.v"
+verilog work "sequenceDetector.v"

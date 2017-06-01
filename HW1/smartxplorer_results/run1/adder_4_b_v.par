@@ -1,0 +1,11 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SAM-PC::  Tue Sep 06 15:09:14 2016
+
+par -ol high -w adder_4_b_v_map.ncd adder_4_b_v.ncd
+C:\Xilinx\HW1\smartxplorer_results\run1\adder_4_b_v.pcf 
+
+
+Constraints file: C:\Xilinx\HW1\smartxplorer_results\run1\adder_4_b_v.pcf.
+Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.

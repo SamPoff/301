@@ -1,0 +1,158 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Lab6_TopModule.twx Lab6_TopModule.ncd -o
+Lab6_TopModule.twr Lab6_TopModule.pcf -ucf Lab6_ucf.ucf
+
+Design file:              Lab6_TopModule.ncd
+Physical constraint file: Lab6_TopModule.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    5.850(R)|      SLOW  |    0.155(R)|      SLOW  |clock_BUFGP       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    6.185|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |a              |   15.087|
+SW<0>          |b              |   14.588|
+SW<0>          |c              |   15.244|
+SW<0>          |d              |   15.448|
+SW<0>          |e              |   15.057|
+SW<0>          |f              |   15.344|
+SW<0>          |g              |   15.146|
+SW<0>          |led<0>         |   17.477|
+SW<0>          |led<1>         |   13.085|
+SW<0>          |led<2>         |   14.188|
+SW<1>          |a              |   15.413|
+SW<1>          |b              |   14.914|
+SW<1>          |c              |   15.570|
+SW<1>          |d              |   15.774|
+SW<1>          |e              |   15.383|
+SW<1>          |f              |   15.670|
+SW<1>          |g              |   15.472|
+SW<1>          |led<0>         |   17.573|
+SW<1>          |led<1>         |   14.289|
+SW<1>          |led<2>         |   11.942|
+SW<2>          |a              |   13.385|
+SW<2>          |b              |   13.473|
+SW<2>          |c              |   13.542|
+SW<2>          |d              |   13.746|
+SW<2>          |e              |   13.954|
+SW<2>          |f              |   13.642|
+SW<2>          |g              |   14.043|
+SW<2>          |led<0>         |   12.469|
+SW<2>          |led<1>         |   12.568|
+SW<2>          |led<2>         |   12.095|
+SW<3>          |a              |   13.599|
+SW<3>          |b              |   13.100|
+SW<3>          |c              |   13.756|
+SW<3>          |d              |   13.960|
+SW<3>          |e              |   13.592|
+SW<3>          |f              |   13.856|
+SW<3>          |g              |   13.681|
+SW<3>          |led<0>         |   14.871|
+SW<3>          |led<1>         |   12.669|
+SW<3>          |led<2>         |   13.359|
+SW<4>          |a              |   17.909|
+SW<4>          |b              |   17.936|
+SW<4>          |c              |   18.273|
+SW<4>          |d              |   18.270|
+SW<4>          |e              |   18.417|
+SW<4>          |f              |   18.373|
+SW<4>          |g              |   18.506|
+SW<4>          |led<0>         |   20.068|
+SW<4>          |led<1>         |   17.708|
+SW<4>          |led<2>         |   18.034|
+SW<5>          |a              |   17.703|
+SW<5>          |b              |   17.290|
+SW<5>          |c              |   17.860|
+SW<5>          |d              |   18.064|
+SW<5>          |e              |   17.771|
+SW<5>          |f              |   17.960|
+SW<5>          |g              |   17.860|
+SW<5>          |led<0>         |   19.916|
+SW<5>          |led<1>         |   17.904|
+SW<5>          |led<2>         |   18.242|
+SW<6>          |a              |   17.017|
+SW<6>          |b              |   16.841|
+SW<6>          |c              |   17.408|
+SW<6>          |d              |   17.378|
+SW<6>          |e              |   17.380|
+SW<6>          |f              |   17.508|
+SW<6>          |g              |   17.469|
+SW<6>          |led<0>         |   19.602|
+SW<6>          |led<1>         |   16.544|
+SW<6>          |led<2>         |   16.840|
+SW<7>          |a              |   17.793|
+SW<7>          |b              |   17.772|
+SW<7>          |c              |   18.339|
+SW<7>          |d              |   18.154|
+SW<7>          |e              |   18.311|
+SW<7>          |f              |   18.439|
+SW<7>          |g              |   18.400|
+SW<7>          |led<0>         |   19.973|
+SW<7>          |led<1>         |   17.271|
+SW<7>          |led<2>         |   17.591|
+S_Sel          |a              |   19.545|
+S_Sel          |b              |   19.405|
+S_Sel          |c              |   19.702|
+S_Sel          |d              |   19.906|
+S_Sel          |e              |   19.886|
+S_Sel          |f              |   19.802|
+S_Sel          |g              |   19.975|
+S_Sel          |led<0>         |   20.836|
+S_Sel          |led<1>         |   17.863|
+S_Sel          |led<2>         |   18.533|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 31 11:29:20 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 244 MB
+
+
+

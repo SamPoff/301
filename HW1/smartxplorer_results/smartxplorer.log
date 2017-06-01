@@ -1,0 +1,34 @@
+
+Release 14.7 SmartXplorer
+Copyright(c) 1995-2010 Xilinx, Inc. All rights reserved.
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe" -p xc6slx16-csg324-2 -b -wd smartxplorer_results adder_4_b_v.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml adder_4_b_v.twx " -host_list hostlistfile.txt -max_runs 7
+
+SmartXplorer Settings: 
+
+designName=C:\Xilinx\HW1\adder_4_b_v.ngd 
+write_dir=C:\Xilinx\HW1\smartxplorer_results 
+host_list=C:\Xilinx\HW1\hostlistfile.txt 
+part=xc6slx16-csg324-2 
+strategy_file=None 
+notify=None 
+source_dir=C:\Xilinx\HW1 
+batch_mode=True 
+run_all_strategies=False 
+list_all_strategies=False 
+remote_command=rsh
+area_report="lut;slice_reg"
+power_options=off
+trce_options="-v 3 -s 2 -n 3 -fastpaths -xml adder_4_b_v.twx "
+max_runs=7
+
+Starting SmartXplorer...
+See file 'smartxplorer.html' for real-time report.
+
+
+Running SmartXplorer strategies...
+
+
+Ctrl C detected
+INFO: ...Killing all jobs
+
+SmartXplorer Aborted.

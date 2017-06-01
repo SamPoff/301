@@ -1,0 +1,127 @@
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/TopModule.xst" -ofn "C:/Xilinx/Lab1/TopModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 TopModule.ngc TopModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopModule_map.ncd TopModule.ngd TopModule.pcf 
+par -w -intstyle ise -ol high -mt off TopModule_map.ncd TopModule.ncd TopModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopModule.twx TopModule.ncd -o TopModule.twr TopModule.pcf 
+bitgen -intstyle ise -f TopModule.ut TopModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim topModule.ngc topModule_synthesis.v 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Lab1/topModule.xst" -ofn "C:/Xilinx/Lab1/topModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc userConstraints.ucf -p xc6slx16-csg324-2 topModule.ngc topModule.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topModule_map.ncd topModule.ngd topModule.pcf 
+par -w -intstyle ise -ol high -mt off topModule_map.ncd topModule.ncd topModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml topModule.twx topModule.ncd -o topModule.twr topModule.pcf -ucf userConstraints.ucf 
+bitgen -intstyle ise -f topModule.ut topModule.ncd 

@@ -1,0 +1,327 @@
+
+Command Line : 
+-------------
+map C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.ngd -ol high -xe n -logic_opt on -register_duplication on -t 2 -w -p xc6slx16-csg324-2 -o adder_4_b_v_map.ncd C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.pcf
+
+Release 14.7 - Map P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Using target part "6slx16csg324-2".
+Mapping design into LUTs...
+Writing file adder_4_b_v_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 10 secs 
+Total CPU  time at the beginning of Placer: 8 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:119) REAL time: 10 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:119) REAL time: 10 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:119) REAL time: 10 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+........
+Phase 4.2  Initial Placement for Architecture Specific Features (Checksum:119) REAL time: 11 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:119) REAL time: 11 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:119) REAL time: 11 secs 
+
+Phase 7.3  Local Placement Optimization
+........
+Phase 7.3  Local Placement Optimization (Checksum:6aedf631) REAL time: 11 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:6aedf631) REAL time: 11 secs 
+
+Phase 9.8  Global Placement
+..
+..
+Phase 9.8  Global Placement (Checksum:deae65ce) REAL time: 11 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:deae65ce) REAL time: 11 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:e118c14e) REAL time: 11 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:e118c14e) REAL time: 11 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:e118c14e) REAL time: 11 secs 
+
+Total REAL time to Placer completion: 11 secs 
+Total CPU  time to Placer completion: 10 secs 
+Running physical synthesis...
+
+Physical synthesis completed.
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     0 out of  18,224    0%
+  Number of Slice LUTs:                          5 out of   9,112    1%
+    Number used as logic:                        5 out of   9,112    1%
+      Number using O6 output only:               3
+      Number using O5 output only:               0
+      Number using O5 and O6:                    2
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   2,176    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     2 out of   2,278    1%
+  Number of MUXCYs used:                         0 out of   4,556    0%
+  Number of LUT Flip Flop pairs used:            5
+    Number with an unused Flip Flop:             5 out of       5  100%
+    Number with an unused LUT:                   0 out of       5    0%
+    Number of fully used LUT-FF pairs:           0 out of       5    0%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  18,224    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        14 out of     232    6%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       0 out of      16    0%
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      32    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                1.63
+
+Peak Memory Usage:  406 MB
+Total REAL time to MAP completion:  15 secs 
+Total CPU time to MAP completion:   14 secs 
+
+Mapping completed.
+See MAP report file "adder_4_b_v_map.mrp" for details.
+
+Command Line : 
+-------------
+par C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.ngd -ol high -xe n -w adder_4_b_v.ncd C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.pcf
+
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.pcf.
+Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "adder_4_b_v" is an NCD, version 3.2, device xc6slx16, package csg324, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                     0 out of  18,224    0%
+  Number of Slice LUTs:                          5 out of   9,112    1%
+    Number used as logic:                        5 out of   9,112    1%
+      Number using O6 output only:               3
+      Number using O5 output only:               0
+      Number using O5 and O6:                    2
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   2,176    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     2 out of   2,278    1%
+  Number of MUXCYs used:                         0 out of   4,556    0%
+  Number of LUT Flip Flop pairs used:            5
+    Number with an unused Flip Flop:             5 out of       5  100%
+    Number with an unused LUT:                   0 out of       5    0%
+    Number of fully used LUT-FF pairs:           0 out of       5    0%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  18,224    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        14 out of     232    6%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       0 out of      16    0%
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      32    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 7 secs 
+Finished initial Timing Analysis.  REAL time: 7 secs 
+
+Starting Router
+
+
+Phase  1  : 28 unrouted;      REAL time: 7 secs 
+
+Phase  2  : 28 unrouted;      REAL time: 7 secs 
+
+Phase  3  : 35 unrouted;      REAL time: 8 secs 
+
+Phase  4  : 35 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Updating file: adder_4_b_v.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Total REAL time to Router completion: 10 secs 
+Total CPU time to Router completion: 9 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 10 secs 
+
+Peak Memory Usage:  353 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file adder_4_b_v.ncd
+
+
+
+PAR done!
+
+Command Line : 
+-------------
+trce C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.ngd C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.pcf -xml C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.twx -v 3 -s 2 -n 3 -fastpaths -o C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.twr
+
+Release 14.7 - Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+
+Loading device for application Rf_Device from file '6slx16.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "adder_4_b_v" is an NCD, version 3.2, device xc6slx16, package csg324, speed
+-2
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.ncd
+C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.pcf -xml
+C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.twx -v 3 -s 2 -n 3
+-fastpaths -o C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.twr
+
+
+Design file:              adder_4_b_v.ncd
+Physical constraint file: adder_4_b_v.pcf
+Device,speed:             xc6slx16,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in
+   the unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of
+   this model, and for more information on accounting for different loading conditions, please see the device datasheet.
+
+Analysis completed Tue Sep 06 15:09:37 2016
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 4
+Total time: 7 secs 

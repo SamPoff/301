@@ -1,0 +1,41 @@
+# Author:    Poff, Samuel
+# Email:     spoff42@gmail.com
+# File Name: Lab4_ucf.ucf
+# Date:      11 Oct, 2016
+# Version:   1.0
+
+# Pinouts for Nexys3 Board  (Spartan6-XC6SLX16-324)
+
+# Start I/O Pin Assignments
+ NET "clock"        LOC = "v10"  ;    # 100 MHz board clock
+
+# Slide Switches
+ NET "switches[0]"      LOC = "t10"  ; 
+ NET "switches[1]"      LOC =  "t9"  ; 
+ NET "switches[2]"      LOC =  "v9"  ; 
+ NET "switches[3]"      LOC =  "m8"  ; 
+ NET "switches[4]"      LOC =  "n8"  ; 
+ NET "switches[5]"      LOC =  "u8"  ; 
+ NET "switches[6]"      LOC =  "v8"  ; 
+ NET "switches[7]"      LOC =  "t5"  ;
+
+# Push Buttons
+ NET "reset"            LOC = "a8"   ;   // up
+ NET "step"             LOC = "c9"   ;   // down
+ NET "sel"              LOC = "c4"   ;   // left
+ NET "we"               LOC = "d9"   ;   // right  
+
+# 7-segment Display 
+ NET "anode[0]"  LOC = "n16"   ;
+ NET "anode[1]"  LOC = "n15"   ;
+ NET "anode[2]"  LOC = "p18"   ;
+ NET "anode[3]"  LOC = "p17"   ;
+ NET "a"          LOC = "t17"  ;
+ NET "b"          LOC = "t18"  ;
+ NET "c"          LOC = "u17"  ;
+ NET "d"          LOC = "u18"  ;
+ NET "e"          LOC = "m14"  ;
+ NET "f"          LOC = "n14"  ;
+ NET "g"          LOC = "l14"  ;
+
+

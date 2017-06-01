@@ -1,0 +1,51 @@
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run1"   "C:\Xilinx\HW1\smartxplorer_results\run1\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run1\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_0.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp1:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRunTime:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run2"   "C:\Xilinx\HW1\smartxplorer_results\run2\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run2\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_1.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dslogic_opt:spon:sp:dst:sp2:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp2:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogicOpt:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run3"   "C:\Xilinx\HW1\smartxplorer_results\run3\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run3\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_2.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsglobal_opt:spspeed:sp:dspr:spb:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp3:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapGlobOptIOReg:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run4"   "C:\Xilinx\HW1\smartxplorer_results\run4\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run4\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_3.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dsregister_duplication:spon:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp4:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run5"   "C:\Xilinx\HW1\smartxplorer_results\run5\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run5\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_4.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dspr:spb:sp:dst:sp7:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp5:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapExtraEffortIOReg:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run6"   "C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run6\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_5.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dslogic_opt:spon:sp:dsregister_duplication:spon:sp:dst:sp2:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp6:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogOptRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+launching strategy on machine: Sam-PC
+"C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe"  --runStrategy  "C:\Xilinx\HW1\smartxplorer_results\run7"   "C:\Xilinx\HW1\smartxplorer_results\run7\adder_4_b_v.ngd"  xc6slx16-csg324-2  "C:\Xilinx\HW1\smartxplorer_results\run7\adder_4_b_v_sx.log"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\Sam-PC_6.stat"   "C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\smartxplorer.env"   "None"  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dst:sp3:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spC:clcl:clbslXilinx:clbslHW1:sp:dsp:spxc6slx16:dscsg324:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spadder_4_b_v.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp7:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapExtraEffort2:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqC:cl:bsl:bslXilinx:bsl:bslHW1:sq:cc map par
+Sam-PC_0 Sam-PC_0.stat 1473199731.72 1473199731.36 1473199732.29
+Sam-PC_1 Sam-PC_1.stat 1473199731.83 1473199731.51 1473199732.31
+Sam-PC_2 Sam-PC_2.stat 1473199731.97 1473199731.61 1473199732.34
+Sam-PC_3 Sam-PC_3.stat 1473199732.14 1473199731.73 1473199732.35
+Sam-PC_4 Sam-PC_4.stat 1473199732.28 1473199731.84 1473199732.37
+Sam-PC_5 waiting on C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\.sx.keepAlive.Sam-PC_5
+Sam-PC_6 waiting on C:\Xilinx\HW1\smartxplorer_results\.smartxplorer\.sx.keepAlive.Sam-PC_6
+Sam-PC_7 is Idle
+Sam-PC_0 no new lines in stat file
+Sam-PC_1 no new lines in stat file
+Sam-PC_2 no new lines in stat file
+Sam-PC_3 no new lines in stat file
+Sam-PC_4 no new lines in stat file
+Sam-PC_5 Sam-PC_5.stat 1473199732.41 1473199732.39 1473199746.45
+Sam-PC_6 Sam-PC_6.stat 1473199732.59 1473199732.41 1473199746.45
+Sam-PC_7 is Idle
+taskkill /F /pid 9764 /T
+taskkill /F /pid 9132 /T
+taskkill /F /pid 9132 /T
+taskkill /F /pid 1188 /T
+taskkill /F /pid 4820 /T
+taskkill /F /pid 4820 /T
+taskkill /F /pid 6952 /T
+taskkill /F /pid 8136 /T
+taskkill /F /pid 8136 /T
+taskkill /F /pid 768 /T
+taskkill /F /pid 11592 /T
+taskkill /F /pid 11592 /T
+taskkill /F /pid 10704 /T
+taskkill /F /pid 2436 /T
+taskkill /F /pid 2436 /T
+taskkill /F /pid 10132 /T
+taskkill /F /pid 908 /T
+taskkill /F /pid 908 /T
+taskkill /F /pid 7840 /T
+taskkill /F /pid 11920 /T
+taskkill /F /pid 11920 /T

@@ -1,0 +1,12 @@
+START:Strategy:1:MapRunTime
+REMOTE_PID:9132
+RUNNING:9132:11572:MapRunTime:map:adder_4_b_v.ngd: -ol high -w  -p xc6slx16-csg324-2 -o adder_4_b_v_map.ncd  C:cl:bslXilinx:bslHW1:bslsmartxplorer_results:bslrun1:bsladder_4_b_v.pcf
+STATUS:MapRunTime:map:Score:None:lut:None:slice_reg:0 (0%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+STATUS:MapRunTime:map:Score:None:lut:5 (1%):slice_reg:0 (0%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+STATUS:MapRunTime:map:Score:None:lut:5 (1%):slice_reg:0 (0%):slice:2 (1%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+STATUS:MapRunTime:map:Score:None:lut:5 (1%):slice_reg:0 (0%):slice:2 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+STATUS:MapRunTime:map:Score:None:lut:5 (1%):slice_reg:0 (0%):slice:2 (1%):bram:0:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+STATUS:MapRunTime:map:Score:None:lut:5 (1%):slice_reg:0 (0%):slice:2 (1%):bram:0:dsp48:0 (0%):mult18x18:None:Power:None:wnsInfo:None:Time:20.34 secs 
+DONE:map:0
+RUNNING:9132:9764:MapRunTime:par:adder_4_b_v_map.ncd: -ol high  -w adder_4_b_v.ncd  C:cl:bslXilinx:bslHW1:bslsmartxplorer_results:bslrun1:bsladder_4_b_v.pcf
+DONE:par:1

@@ -1,0 +1,6 @@
+verilog work "d_ff.v"
+verilog work "sequenceDetector.v"
+verilog work "hex_to_7segment.v"
+verilog work "debounce.v"
+verilog work "clockDivider.v"
+verilog work "TopModule.v"
